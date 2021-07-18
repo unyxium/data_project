@@ -5,11 +5,13 @@ from colorama import Fore, Style
 
 LOCAL = os.path.dirname(os.path.realpath(__file__))
 
-with open('loc4.txt') as f:  # Put all locations in to a list
+with open('loc6.txt') as f:  # Put all locations in to a list
     locations = [line.rstrip() for line in f]
 
 lat = []
 lon = []
+
+count = 1
 
 for loc in locations:
     print(loc)
@@ -28,7 +30,8 @@ for loc in locations:
         lat.append(coord1)
         lon.append(coord2)
         print(coord1, coord2)
-    print('')
+    print(f'count: {count}')
+    count += 1
     time.sleep(1)
 
 with open(LOCAL + '\lat.txt', 'w') as file:
