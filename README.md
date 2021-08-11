@@ -4,9 +4,9 @@ Source: https://data.world/data-society/airplane-crashes
 
 **Audit**
 
-- There are 13 columns and 5268 records, plus two more columns containing coordinates from a different database.
+- There are 13 columns and 5268 records, plus two more columns containing coordinates from a different database. This makes 15 columns total.
 - The dataset lists a large proportion of notable aircraft incidents (not just airplanes), which are mostly fatal crashes.
-- It is unknown why this dataset was created or who paid for it. The original source is no longer available on the internet too.
+- It is unknown why this dataset was created or who paid for it. The original source is unfortunately no longer available on the internet.
 - Column details:
   - date - The date the incident occurred. Formatted MM/DD/YYYY. Everything is sorted by date.
   - time - The approximate local time the incident occurred, in 24-hour format. Unknown times are left blank.
